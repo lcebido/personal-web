@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import WebFont from 'webfontloader';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './sass/global.scss';
+
+WebFont.load({
+  google: {
+    families: ['Roboto:100,200,300,400','Pattaya', 'Titillium Web:300,400,700', 'sans-serif']
+  }
+});
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

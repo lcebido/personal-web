@@ -1,0 +1,13 @@
+.navbar {
+    background: #333;
+    padding: 20px;
+    transition: 0.5;
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.link {
+    color: #bada55;
+}

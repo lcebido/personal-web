@@ -1,23 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import CreateNote from "./components/CreateNote";
+import "./sass/global.scss"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+          <Home />
+          <Navbar />
+          <About />
+          <Portfolio />
+          <Blog />
+          <Contact />
+          <CreateNote />
+      {/* <Router>
+      
+
+      {/* <Route path="/" exact>
+        <Home />
+      </Route> 
+
+      <Route path="/about">
+        <About />
+      </Route>
+
+      <Route path="/portfolio">
+        <Portfolio />
+      </Route>
+
+      <Route path="/blog">
+        <Blog />
+      </Route>
+
+      <Route path="/contact">
+        <Contact />
+      </Route>
+
+      <Route path="/createnote">
+        <CreateNote />
+      </Route>
+    </Router> */}
     </div>
   );
 }

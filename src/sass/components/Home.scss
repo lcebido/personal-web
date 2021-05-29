@@ -1,0 +1,18 @@
+.container-canvas{
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+
+    canvas {
+        background: #ffffff; 
+        position: absolute;
+    }
+    #homebutton{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background:  red;
+        cursor: pointer;
+    }
+}
+
