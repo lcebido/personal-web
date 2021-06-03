@@ -15,10 +15,10 @@ function App() {
           <Home />
           <Header />
           <About />
-          {/*<Portfolio />
+          <Portfolio />
           <Blog />
           <Contact />
-          <CreateNote /> */}
+          <CreateNote /> 
       {/* <Router>
       
 
