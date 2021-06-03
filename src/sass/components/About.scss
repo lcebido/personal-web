@@ -1,0 +1,53 @@
+#about {
+    .profile {
+        .profile-inner {
+            //background: salmon;
+        }
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .image-container {
+            min-height: calc(450px - 5vw);
+        }
+    }
+
+    .details {
+        .details-inner div {
+            background: lightgreen;
+        }
+        img {
+            width: 190px;
+            border-radius: 4px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            box-shadow: 0 1px 4px 0px #0000004a;
+            padding: 7px;
+        }
+    }
+    .skills {
+        li {
+            list-style: none;
+            .skillbar {
+                display: flex;
+                justify-content: space-between;
+                .name {
+                    flex: 1;
+                    text-align:left;
+                }
+                .level {
+                    flex: 1;
+                }
+            }
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #eeeeee59;
+            width: 70%;
+            margin: auto;
+        }
+    }
+}
