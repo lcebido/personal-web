@@ -1,7 +1,7 @@
 [
   { "id": "1", "name": "Taglish (daily use)", "level": "5" },
   { "id": "2", "name": "Tagalog (native languange)", "level": "4" },
-  { "id": "3", "name": "English (Conversational)", "level": "3" },
+  { "id": "3", "name": "English (conversational)", "level": "3" },
   { "id": "4", "name": "Mandarin (nah)", "level": "0" },
-  { "id": "4", "name": "Baby talk (blabluebhalablaba)", "level": "4" }
+  { "id": "5", "name": "Baby talk (blabluebhalablaba)", "level": "4" }
 ]

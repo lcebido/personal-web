@@ -8,8 +8,6 @@ function Home() {
     <div id='home' className="container-canvas">
       <HomeCanvas />
       <HomeButton />
-
-      
     </div>
   );
 }

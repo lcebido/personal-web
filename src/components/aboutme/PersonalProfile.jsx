@@ -1,31 +1,31 @@
 import React from "react";
+import SlideBar from "./SlideBar"
 
 function PersonalProfile() {
   return (
-    <div className="container-subsection">
-      <div className="container content">
-        <div className="row">
-          <div className="col">
-            <h1 className="font-pattaya">about.</h1>
-            <h2>I'm a Software Engineer based in Rizal, Philippines.</h2>
-            <p>
-              I enjoy turning complex code into simple, cleaner, reusable and
-              more readable.
-            </p>
-          </div>
-          <div className="col">
-            <img
-              className="inline-photo"
-              src="https://picsum.photos/590/440"
-              alt="Logo"
-            />
-          </div>
-          <div className="col-lg-12">
-            Got inspired? Copied the theme? Or do you just like the website? No
-            problem, just buy me a beer and make me happy!
-          </div>
+    <div className="container inner-content">
+      <div className="profile row my-lg-3">
+        <div className="profile-container profile-inner col-lg-6">
+          <h1 className="font-pattaya">about.</h1>
+          <h2 className="charcoal mb-3">
+            I'm a Software Engineer based in Rizal, Philippines.
+          </h2>
+          <p>
+            I enjoy turning complex code into simple, cleaner, reusable and more
+            readable. I might look intimidating, but I'm more approachable than
+            you think.
+          </p>
+        </div>
+        <div className="image-container profile-inner text-center col-lg-6 mb-sm-5">
+          <img
+            className="inline-photo img-fluid"
+            src="/images/image-1.png"
+            alt="Logo"
+          />
         </div>
       </div>
+        <SlideBar />
+        <div className='clearfix my-4'></div>
     </div>
   );
 }

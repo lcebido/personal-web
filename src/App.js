@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Home from "./components/Home/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -13,12 +13,12 @@ function App() {
     <div>
 
           <Home />
-          <Navbar />
+          <Header />
           <About />
-          <Portfolio />
+          {/*<Portfolio />
           <Blog />
           <Contact />
-          <CreateNote />
+          <CreateNote /> */}
       {/* <Router>
       
 
