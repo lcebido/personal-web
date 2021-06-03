@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1",
+    "company": "Wide-Out Workforce Inc.",
+    "year": {
+      "from": "1199667600",
+      "to": "1387501200"
+    },
+    "position": [
+      {
+        "id": "1",
+        "title": "Rich Media Developer",
+        "description": "Started my career as Rich Media developer where Macromedia flash is rocking the industry.",
+        "from": "1199667600",
+        "to": "1262566800"
+      },
+      {
+        "id": "2",
+        "title": "Senior Rich Media Developer",
+        "description": "Promoted to Senior Rich Media developer, and got to train and guide new developers.",
+        "from": "1262566800",
+        "to": "1278291600"
+      },
+      {
+        "id": "3",
+        "title": "Rich Media Specialist",
+        "description": "Rich Media Specialist, got my own team of developer to work with and manage our deliverables.",
+        "from": "1278291600",
+        "to": "1341795600"
+      },
+      {
+        "id": "4",
+        "title": "Rich Media Specialist II",
+        "description": "Rich Media Specialist II, Communicate and negotiate with our offshore campaign manager for all incomming campaigns and work load.",
+        "from": "1341795600",
+        "to": "1387501200"
+      }
+    ],
+    "location": "McKinley Hill, Taguig",
+    "url": ""
+  },
+
+  {
+    "id": "2",
+    "company": "GlobalNet Services Group Inc.",
+    "year": {
+      "from": "1389574800",
+      "to": ""
+    },
+    "position": [
+      {
+        "id": "1",
+        "title": "Flash Game Developer",
+        "description": "Maintain and develop Flash base game, using Adobe Flash with actionscript 2 or 3. The games are used in our casino sportsbook site.",
+        "from": "1389574800",
+        "to": "1421024400"
+      },
+      {
+        "id": "2",
+        "title": "HTML5 Game Developer",
+        "description": "Create and convert previous flash games to HTML5 games, using HTML5 Canvas to draw our game and PhaserJS as our main framework. We also used some libraries such as Three.js, CreateJS, EaselJs, TweenJs, SoundJs, PreloadJs.",
+        "from": "1421024400",
+        "to": "1499648400"
+      },
+      {
+        "id": "3",
+        "title": "Web Developer",
+        "description": "Maintain and develope sportsbook website, Using PHP, JavaScript ES6, jquery, laravel for previous sites, VueJS , SASS / SCSS",
+        "from": "1499648400",
+        "to": ""
+      }
+    ],
+    "location": "Accralaw Tower, Bonifacio Global City",
+    "url": ""
+  }
+]
