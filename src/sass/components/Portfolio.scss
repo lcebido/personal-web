@@ -1,0 +1,80 @@
+#portfolio {
+    .portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .thumb-container {
+            position: relative;
+            margin: 20px;
+            text-decoration: none;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            -webkit-box-shadow: 4px 4px 4px 0px #00000079;
+            -moz-box-shadow: 4px 4px 4px 0px #00000079;
+            box-shadow: 4px 4px 4px 0px #00000079;
+
+            .image {
+                opacity: 1;
+                width: 303px;
+                height: 188px;
+                transition:  400ms opacity cubic-bezier(0.31, 0.95, 0.57, 1);
+            }
+            .text {
+                position: absolute;
+                left: 0;
+                top: 0;
+                text-align: center;
+                width: 100%;
+                opacity: 0;
+                transition: 200ms top ease-in, 300ms opacity ease-in;
+
+                .upper{
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                }
+                .lower{
+                    color: #3e6ca2;
+                }
+        
+            }
+            .button{
+                position: absolute;
+                display: block;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                padding: 7px 0;
+                bottom: 0;
+                width: 170px;
+                text-align: center;
+                text-transform: uppercase;
+                border: 3px solid #3e6ca2;
+                opacity: 0;
+
+                transition: 200ms bottom ease-in, 300ms opacity ease-in;
+            }
+        }
+        .thumb-container:hover {
+            
+            .image {
+                width: 303px;
+                height: 188px;
+                opacity: 0;
+            }
+            .text{
+                opacity: 1;
+                display: block;
+                top: 15%;
+            }
+            .button{
+                bottom: 15%;
+                opacity: 1;
+            }
+        }
+    }
+}

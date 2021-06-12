@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "school": "Marikina Elementary School (MES)",
+    "level": "Primary",
+    "year": {
+      "from": "1199667600",
+      "to": "1387501200"
+    },
+    "location": "Marikina City"
+  },
+  {
+    "id": "2",
+    "school": "Sta.Elena High School (SEHS)",
+    "level": "Secondary",
+    "year": {
+      "from": "1199667600",
+      "to": "1387501200"
+    },
+    "location": "Marikina City"
+  },
+  {
+    "id": "3",
+    "school": "Technological Institute of the Philippines (TIP)",
+    "level": "Tertiary",
+    "degree": "Bachelor of Science in Information Technology (BSIT)",
+    "year": {
+      "from": "1199667600",
+      "to": "1387501200"
+    },
+    "location": "Aurora Blvd, Cubao, Quezon City,"
+  }
+]

@@ -35,7 +35,7 @@
                 justify-content: space-between;
                 .name {
                     flex: 1;
-                    text-align:left;
+                    text-align: left;
                 }
                 .level {
                     flex: 1;
@@ -43,11 +43,15 @@
             }
         }
 
-        hr {
-            border: 0;
-            border-top: 1px solid #eeeeee59;
-            width: 70%;
-            margin: auto;
+    }
+    .experience {
+        .carrer, .education {
+            .date {
+                font-size: 0.8rem;
+            }
+            .school {
+                font-size: 0.9rem;
+            }
         }
     }
 }

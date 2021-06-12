@@ -21,6 +21,21 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
+h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
 
 .theme-light {
   background: #ffffff;
@@ -34,6 +49,18 @@ h2 {
   -moz-box-shadow: inset 0px 1px 4px 0px #00000026;
   box-shadow: inset 0px 1px 4px 0px #00000026;
 }
+.theme-darker {
+  background: #363636;
+  -webkit-box-shadow: inset 0px 1px 4px 0px #00000026;
+  -moz-box-shadow: inset 0px 1px 4px 0px #00000026;
+  box-shadow: inset 0px 1px 4px 0px #00000026;
+}
+.theme-footer {
+  background: #000000;
+  -webkit-box-shadow: inset 0px 1px 4px 0px #00000026;
+  -moz-box-shadow: inset 0px 1px 4px 0px #00000026;
+  box-shadow: inset 0px 1px 4px 0px #00000026;
+}
 
 .inner-content {
   width: 100%;
@@ -43,8 +70,6 @@ h2 {
 .charcoal {
   color: #8c8c8c;
 }
-
-
 
 .flex {
   display: flex;
@@ -72,4 +97,55 @@ h2 {
   max-width: 600px;
   width: 90%;
   will-change: transform, opacity;
+}
+
+@media (max-width: 576px) {
+  .col-xs-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .col-xs-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+  }
+  .col-xs-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+  }
+  .col-xs-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .col-xs-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+  }
+  .col-xs-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+  }
+  .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .col-xs-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+  }
+  .col-xs-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .col-xs-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .col-xs-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .col-xs-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+  }
 }

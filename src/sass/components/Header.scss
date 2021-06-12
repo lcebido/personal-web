@@ -46,6 +46,14 @@
                     cursor: default;
                     pointer-events: none;
                 }
+                .disabled{
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 0 10px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    pointer-events:auto;
+                }
             }
             .social {
                 list-style: none;

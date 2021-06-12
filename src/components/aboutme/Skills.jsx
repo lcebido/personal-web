@@ -69,11 +69,11 @@ function Skills() {
     <div className="container inner-content">
       <div className="skills row pt-lg-4">
         <h1 className="font-pattaya">abilities.</h1>
-        <h5 className="text-center charcoal px-5">
-          "It is not always possible to be the best, but it is always possible
-          to improve your own performance."
+        <h3 className="text-center charcoal px-5">
+        “It is not always possible to be the best, but it is always possible
+          to improve your own performance.”
           <br />- Jackie Stewart
-        </h5>
+        </h3>
         <div className="row">
           <h2 className="text-center p-3">Knowledges</h2>
           <div className='text-center col-lg-6 col-md-6'>
@@ -139,7 +139,9 @@ function Skills() {
             </ul>
           </div>
         </div>
+        <div className='clearfix my-4'></div>
       </div>
+      
     </div>
   );
 }
