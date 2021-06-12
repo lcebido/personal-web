@@ -59,6 +59,24 @@ function Portfolio() {
             <div className="row">
               <h2 className="text-center p-3">Game Development</h2>
             </div>
+            <div className="row">
+              <div className="col-12">
+                <div className="portfolio-container">
+                  {[...gamedev].map(({ id, imgurl , name, tag}) => (
+                    <div className="thumb-container" key={id}>
+                      <div className="thumb-inner">
+                        <div className="image" style={{ background: `url(${imgurl}) center center/cover`,}}></div>
+                        <div className="text">
+                          <div className="upper">{name}</div>
+                          <div className="lower">{tag[0]} / {tag[1]} / {tag[2]}</div>
+                        </div>
+                        <div className="button">Visit</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
