@@ -5,7 +5,6 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
-import CreateNote from "./components/CreateNote";
 import "./sass/global.scss"
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
           <Portfolio />
           <Blog />
           <Contact />
-          <CreateNote /> 
       {/* <Router>
       
 

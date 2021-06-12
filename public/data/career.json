@@ -65,7 +65,18 @@
       {
         "id": "3",
         "title": "Web Developer",
-        "description": "Maintain and develope sportsbook website, Using PHP, JavaScript ES6, jquery, laravel for previous sites, VueJS , SASS / SCSS",
+        "description": "Maintain and develop sportsbook website, Using PHP, JavaScript ES6, jquery, laravel for previous sites, VueJS , SASS / SCSS",
+        "jobdescription":[
+          {"id": "1",
+            "role": "Maintain and develop responsive sportsbook betting website, such as www.topbet.eu, www.mvpbte.com, www.oddsmaker.ag and same with our demo website www.digitalwin.com" 
+          },
+          {"id": "2",
+            "role": "Develop new betting application or feature with resuable codes and library, like NFL Survivor, NFL Draft, Squares using websocket" 
+          }, 
+          {"id": "3",
+            "role": "Develop new betting application or feature with resuable codes and library, like NFL Survivor, NFL Draft, Squares using websocket" 
+          }
+        ],
         "from": "1499648400",
         "to": ""
       }
