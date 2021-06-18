@@ -1,0 +1,183 @@
+#modal {
+    .dimmer {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #000000ad;
+        z-index: 2000;
+        animation: 300ms ease-out 0s 1 dimmer;
+    }
+    .content {
+        position: fixed;
+        background-color: #fff;
+        padding: 0px;
+        z-index: 2000;
+        border-radius: 0px;
+        max-width: 550px;
+        max-height: 534px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        animation: 400ms cubic-bezier(0.51, 0.41, 0.41, 1.15) 0s 1 content;
+
+        .btn-back {
+            position: absolute;
+            z-index: 100;
+            right: calc(0% - 1px);
+            padding: 8px;
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            border: none;
+            line-height: 1px;
+            min-width: 43px;
+            min-height: 43px;
+            transition: 400ms background ease-in-out;
+        }
+        .btn-back:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .carousel-container {
+            opacity: 0;
+            animation: 200ms ease-out 400ms 1 carousel-container forwards;
+
+            img {
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+                text-decoration: none;
+                border-radius: 0px;
+                -moz-background-clip: padding;
+                -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+                box-shadow: none;
+            }
+
+            .react-multiple-carousel__arrow {
+                border-radius: 0;
+            }
+            .react-multiple-carousel__arrow--left {
+                left: calc(0% - 1px);
+                bottom: 0%;
+            }
+            .react-multiple-carousel__arrow--right {
+                right: calc(0% - 1px);
+                bottom: 0%;
+            }
+        }
+        .bottom-container {
+            border-top: 2px solid rgb(56, 56, 56);
+            min-height: 100px;
+            padding: 10px;
+            opacity: 0;
+            animation: 200ms ease-out 500ms 1 bottom-container forwards;
+            
+            
+
+            .title {
+                font-weight: 600;
+                color: #232323;
+                opacity: 0;
+                animation: 300ms ease-out 500ms 1 title forwards;
+            }
+            hr {
+                margin: 0.2rem;
+            }
+            .description {
+                font-size: 0.8rem;
+                line-height: 0.9rem;
+                opacity: 0;
+                animation: 300ms ease-out 700ms 1 description forwards;
+            }
+            a {
+                text-decoration: none;
+            }
+
+            .btn-visitsite {
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: flex-start;
+                min-width: 110px;
+                text-align: center;
+                text-transform: uppercase;
+                border: 2px solid #3e6ca2;
+                font-size: 0.7rem;
+                font-weight: 600;
+                color: #3e6ca2;
+                padding: 5px;
+                background: none;
+                outline: none;
+                cursor: pointer;
+                box-shadow: inset 32px 0px 0px 0px #3e6ca2;
+                transition: 400ms box-shadow ease-in-out, 400ms color ease-in-out;
+
+                .text {
+                    flex: 1;
+                }
+            }
+            .btn-visitsite:hover {
+                color: #fff;
+                box-shadow: inset 110px 0px 0px 0px #3e6ca2;
+            }
+        }
+    }
+
+    @keyframes dimmer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes content {
+        0% {
+            opacity: 0.3;
+            transform: scale(0);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    @keyframes carousel-container {
+        0% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes bottom-container {
+        0% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes title {
+        0% {
+            transform: translateX(-10%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    @keyframes description {
+        0% {
+            transform: translateX(-10%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}

@@ -28,7 +28,7 @@ function Contact() {
 
                   <div className="text-nowrap col-lg-4 col-md-4 col-sm-12 py-2">
                     <a
-                      href="https://www.linkedin.com/in/lcebido/"
+                      href="https://www.linkedin.com/in/lcebido"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

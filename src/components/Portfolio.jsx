@@ -1,14 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import "../sass/components/Portfolio.scss";
+import Modal from "./Modal";
 
 function Portfolio() {
   const [webdev, setWebdev] = useState([]);
   const [gamedev, setGamedev] = useState([]);
+  const [modalContent, setModalContent] = useState([]);
+  const modalRef = useRef();
+  const openModal = (props) => {
+    setModalContent(props);
+    modalRef.current.openModal();
+  };
 
   useEffect(() => {
     const webdev = axios.get("/data/portfolioweb.json");
-    const gamedev = axios.get("/data/portfolioweb.json");
+    const gamedev = axios.get("/data/portfoliogame.json");
 
     axios
       .all([webdev, gamedev])
@@ -25,7 +32,7 @@ function Portfolio() {
 
   return (
     <div id="portfolio">
-      <div className="theme-dark">
+      <div className="theme-dark pb-5">
         <div className="container inner-content">
           <div className="experience row pt-lg-4">
             <h1 className="font-pattaya">portfolio.</h1>
@@ -40,15 +47,26 @@ function Portfolio() {
             <div className="row">
               <div className="col-12">
                 <div className="portfolio-container">
-                  {[...webdev].map(({ id, imgurl , name, tag}) => (
+                  {[...webdev].map(({ id, thumbnail ,name, tag, images, description, url, imageURL = './images/portfolio/webdev'}) => (
                     <div className="thumb-container" key={id}>
                       <div className="thumb-inner">
-                        <div className="image" style={{ background: `url(${imgurl}) center center/cover`,}}></div>
+                        <div
+                          className="image"
+                          style={{
+                            background: `url(${imageURL}/${id}/${thumbnail}) center center/cover`,
+                          }}
+                        ></div>
                         <div className="text">
                           <div className="upper">{name}</div>
-                          <div className="lower">{tag[0]} / {tag[1]} / {tag[2]}</div>
+                          <div className="lower">
+                            {tag.slice(0, 3).map((tagitem, index) => (
+                              <span key={index}>{index===0 ? "": "/"} {tagitem}  </span>
+                            ))}
+                          </div>
                         </div>
-                        <div className="button">Visit</div>
+                        <button className="button noselect" onClick={()=> openModal({id, name, description, images, url, imageURL})}>
+                          Preview
+                        </button>
                       </div>
                     </div>
                   ))}
@@ -62,15 +80,26 @@ function Portfolio() {
             <div className="row">
               <div className="col-12">
                 <div className="portfolio-container">
-                  {[...gamedev].map(({ id, imgurl , name, tag}) => (
+                  {[...gamedev].map(({ id, thumbnail ,name, tag, images, description, url, imageURL = './images/portfolio/gamedev'}) => (
                     <div className="thumb-container" key={id}>
                       <div className="thumb-inner">
-                        <div className="image" style={{ background: `url(${imgurl}) center center/cover`,}}></div>
+                        <div
+                          className="image"
+                          style={{
+                            background: `url(${imageURL}/${id}/${thumbnail}) center center/cover`,
+                          }}
+                        ></div>
                         <div className="text">
                           <div className="upper">{name}</div>
-                          <div className="lower">{tag[0]} / {tag[1]} / {tag[2]}</div>
+                          <div className="lower">
+                            {tag.slice(0, 3).map((tagitem, index) => (
+                              <span key={index}>{index===0 ? "": "/"} {tagitem}  </span>
+                            ))}
+                          </div>
                         </div>
-                        <div className="button">Visit</div>
+                        <button className="button noselect" onClick={()=> openModal({id, name, description, images, url, imageURL})}>
+                          Preview
+                        </button>
                       </div>
                     </div>
                   ))}
@@ -80,6 +109,10 @@ function Portfolio() {
           </div>
         </div>
       </div>
+      <div className="clearfix my-5"></div>
+      <Modal ref={modalRef} content={modalContent}>
+        MODAL
+      </Modal>
     </div>
   );
 }

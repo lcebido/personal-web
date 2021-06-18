@@ -1,18 +1,75 @@
-.container-canvas{
-    overflow: hidden;
+.container-canvas {
     height: 100vh;
-    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 0 10px;
 
     canvas {
-        background: #ffffff; 
+        background: #111;
+        height: 100%;
+        left: 0;
         position: absolute;
+        top: 0;
+        width: 100vw;
     }
-    #homebutton{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        background:  red;
-        cursor: pointer;
+    #home-intro {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        justify-content: center;
+        .intro-text {
+            pointer-events: none;
+            z-index: 1;
+            font-size: calc(1rem + 2.3vw);
+            line-height: calc(1rem + 2.3vw);
+            padding: 20px;
+            span {
+                color: #8aafdc;
+                font-weight: bold;
+            }
+        }
+
+        .btn-profile {
+            position: relative;
+            text-decoration: none;
+            color: #fff;
+            font-size: calc(1rem + 0.3vw);
+            cursor: pointer;
+
+            .text {
+                padding: 10px 20px;
+                box-shadow: inset 0px 0px 0px 0px #3e6ca2;
+                border: 3px solid #3e6ca2;
+                transition: 400ms box-shadow ease-in-out;
+            }
+            .icon-background {
+                padding: 10px 10px;
+                border: 3px solid #3e6ca2;
+                border-left: none;
+                background: #3e6ca2;
+                box-shadow: inset 0px 0px 0px 0px #3e6ca2;
+                transition: 300ms 300ms box-shadow ease-in-out;
+
+                .icon-container {
+                    transition: 300ms 300ms transform ease-in;
+                }
+            }
+        }
+        .btn-profile:hover {
+            .text {
+                box-shadow: inset 180px 0px 0px 0px #3e6ca2;
+            }
+            .icon-background {
+                .icon-container {
+                    color: #fff;
+                    transform: rotate(90deg);
+                }
+            }
+        }
     }
 }
-

@@ -25,11 +25,9 @@ function Header() {
         if (windowBottom >= docHeight) {
           setRemoveActive('disabled');
             setActiveContact('active');
-            console.log("YEAH ", el)
         } else {
             setActiveContact('disabled');
             setRemoveActive('');
-            console.log(html.scrollHeight, "NOT ", html.clientHeight)
         }
   }
 
@@ -37,14 +35,13 @@ function Header() {
     <div className="header">
       
       <div className='header-inner'>
-      <Link className='link'  spy={true} smooth={true} duration={100} delay={0} to="home"><img className="img-fluid" src="logo.png" alt="Logo"/></Link>
+      <Link className='link noselect' spy={true} smooth={true} duration={100} delay={0} to="home"><img className="img-fluid" src="logo.png" alt="Logo"/></Link>
       <div className='navbar d-none d-sm-flex'>
         <ul className='page'>
-          <li>{activeContact}</li>
-          <li><Link className='link'  spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="about">About</Link></li>
-          <li><Link className='link'  spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="portfolio">Portfolio</Link></li>
-          <li><Link className={`link  ${removeActive}`}  spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="blog">Blog</Link></li>
-          <li><Link className={`link  ${activeContact}`}   spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="contact">Contact</Link></li>
+          <li><Link className='link noselect'  spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="about">About</Link></li>
+          <li><Link className='link noselect'  spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="portfolio">Portfolio</Link></li>
+          <li><Link className={`link noselect ${removeActive}`}  spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="blog">Blog</Link></li>
+          <li><Link className={`link noselect ${activeContact}`}   spy={true} smooth={true} offset={navbarHeight} duration={100} delay={0} to="contact">Contact</Link></li>
         </ul>
         <ul className='social'>
           <li><Facebook color='#FFF' size={40} /></li>
