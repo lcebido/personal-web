@@ -1,7 +1,24 @@
 import React from "react";
 import { Youtube } from "react-bootstrap-icons";
+//import axios from "axios";
 
 function BLog() {
+  // const [blog, setBlog] = useState([]);
+  // useEffect(() => {
+  //   async function getData() {
+  //     await axios
+  //       .get("/data/blog.json")
+  //       .then((response) => {
+  //         setBlog(response.data);
+  //       })
+  //       .catch((error) => {
+  //         console.log(error);
+  //       });
+  //   }
+  //   getData();
+  // }, []);
+
+
   return (
     <div id="blog">
       <div className="theme-light" style={{borderBottom: 0}}>

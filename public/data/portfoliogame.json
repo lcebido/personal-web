@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "name": "Sicbo",
+    "tag": ["PhaserJS", "ThreeJS", "CreateJS"],
+    "description": "Sic bo is a casino game, popular in Asia and widely played (as dai siu) in casinos in Macau. The literal meaning of sic bo is 'precious dice', while dai siu and dai sai mean big [or] small.",
+    "url": "",
+    "thumbnail": "thumbnail-sicbo.png",
+    "images": ["sicbo-1.png","sicbo-2.png","sicbo-3.png","sicbo-4.png"]
+  },
+  {
+    "id": "2",
+    "name": "Millionaire Zodiac",
+    "tag": ["PhaserJS", "CreateJS"],
+    "description": "Millionaire Zodiac is a casino slot game, with 3 bonus games that you can play.",
+    "url": "",
+    "thumbnail": "thumbnail-millionairezodiac.png",
+    "images": ["millionairezodiac-1.png","millionairezodiac-2.png","millionairezodiac-3.png"]
+  },
+  {
+    "id": "3",
+    "name": "District Samurai",
+    "tag": ["PhaserJS", "CreateJS"],
+    "description": "District Samurai is a casino slot game with freespin bonus game to win.",
+    "url": "",
+    "thumbnail": "thumbnail-districsamurai.png",
+    "images": ["districsamurai-1.png","districsamurai-2.png","districsamurai-3.png","districsamurai-4.png","districsamurai-5.png"]
+  },
+  {
+    "id": "4",
+    "name": "Jurassic Jungle",
+    "tag": ["PhaserJS", "CreateJS"],
+    "description": "Jurassic Jungle is a casino slot game with free credits bonus game to win.",
+    "url": "",
+    "thumbnail": "thumbnail-jurassicjungle.png",
+    "images": ["jurassicjungle-1.png","jurassicjungle-2.png","jurassicjungle-3.png","jurassicjungle-4.png"]
+  },
+  {
+    "id": "5",
+    "name": "Magic Coin",
+    "tag": ["PhaserJS", "CreateJS"],
+    "url": "",
+    "description": "Magic Coin is a casino slot game with an expanded freespin bonus game.",
+    "thumbnail": "thumbnail-magiccoin.png",
+    "images": ["magiccoin-1.png","magiccoin-2.png","magiccoin-3.png"]
+  },
+  {
+    "id": "6",
+    "name": "Christmas Smash",
+    "tag": ["PhaserJS", "CreateJS"],
+    "url": "",
+    "description": "Christmas Smash is a casino slot game with expanded scatter type bonus.",
+    "thumbnail": "thumbnail-christmassmash.png",
+    "images": ["christmassmash-1.png","christmassmash-2.png","christmassmash-3.png"]
+  },
+  {
+    "id": "7",
+    "name": "Cupid Smash",
+    "tag": ["PhaserJS", "CreateJS"],
+    "url": "",
+    "description": "Cupid Smash is a casino slot game with expanded scatter type bonus.",
+    "thumbnail": "thumbnail-cupidsmash.png",
+    "images": ["cupidsmash-1.png","cupidsmash-2.png","cupidsmash-3.png","cupidsmash-4.png"]
+  },
+  {
+    "id": "8",
+    "name": "Chinese New Year Deluxe",
+    "tag": ["PhaserJS", "CreateJS"],
+    "url": "",
+    "description": "Chinese New Year Deluxe is a casino slot game with 5 bonus game to choose from.",
+    "thumbnail": "thumbnail-chinesenewyeardeluxe.png",
+    "images": ["chinesenewyeardeluxe-1.png","chinesenewyeardeluxe-2.png"]
+  },
+  {
+    "id": "9",
+    "name": "Majestic India",
+    "tag": ["PhaserJS", "CreateJS"],
+    "url": "",
+    "description": "Majestic India is a casino slot game with 72 ways to win.",
+    "thumbnail": "thumbnail-majesticindia.png",
+    "images": ["majesticindia-1.png","majesticindia-2.png","majesticindia-3.png"]
+  }
+]
