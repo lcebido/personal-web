@@ -52,9 +52,7 @@ function Portfolio() {
                       <div className="thumb-inner">
                         <div
                           className="image"
-                          style={{
-                            background: `url(${imageURL}/${id}/${thumbnail}) center center/cover`,
-                          }}
+                          style={{ background: `url(${imageURL}/${id}/${thumbnail}) center center/cover`}}
                         ></div>
                         <div className="text">
                           <div className="upper">{name}</div>

@@ -4,8 +4,8 @@
     "school": "Marikina Elementary School (MES)",
     "level": "Primary",
     "year": {
-      "from": "1199667600",
-      "to": "1387501200"
+      "from": "1991-06-01T00:00:00+08:00",
+      "to": "1997-03-01T00:00:00+08:00"
     },
     "location": "Marikina City"
   },
@@ -14,8 +14,8 @@
     "school": "Sta.Elena High School (SEHS)",
     "level": "Secondary",
     "year": {
-      "from": "1199667600",
-      "to": "1387501200"
+      "from": "1997-06-01T00:00:00+08:00",
+      "to": "2003-03-01T00:00:00+08:00"
     },
     "location": "Marikina City"
   },
@@ -25,8 +25,8 @@
     "level": "Tertiary",
     "degree": "Bachelor of Science in Information Technology (BSIT)",
     "year": {
-      "from": "1199667600",
-      "to": "1387501200"
+      "from": "2003-06-01T00:00:00+08:00",
+      "to": "2007-03-01T00:00:00+08:00"
     },
     "location": "Aurora Blvd, Cubao, Quezon City,"
   }

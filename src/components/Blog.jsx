@@ -1,22 +1,32 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
+import axios from "axios";
 import { Youtube } from "react-bootstrap-icons";
-//import axios from "axios";
+import "../sass/components/Blog.scss";
+import Modal from "./Modal";
+
 
 function BLog() {
-  // const [blog, setBlog] = useState([]);
-  // useEffect(() => {
-  //   async function getData() {
-  //     await axios
-  //       .get("/data/blog.json")
-  //       .then((response) => {
-  //         setBlog(response.data);
-  //       })
-  //       .catch((error) => {
-  //         console.log(error);
-  //       });
-  //   }
-  //   getData();
-  // }, []);
+  const [blog, setBlog] = useState([]);
+  const [modalContent, setModalContent] = useState([]);
+  const modalRef = useRef();
+  const openModal = (props) => {
+    setModalContent(props);
+    modalRef.current.openModal();
+  };
+
+  useEffect(() => {
+    async function getData() {
+      await axios
+        .get("/data/blog.json")
+        .then((response) => {
+          setBlog(response.data);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    }
+    getData();
+  }, []);
 
 
   return (
@@ -32,13 +42,37 @@ function BLog() {
             </h3>
             <hr className="my-4" />
             <div className="row">
-              <Youtube color="#8c8c8c" size={200} />
+            <div className="blog-container">
+                  {[...blog].map(({ id, thumbnail ,name, tag, images, description, url, imageURL = './images/blog/mltopglobal'}) => (
+                    <div className="thumb-container" key={id}>
+                      <div className="thumb-inner">
+                        <div
+                          className="image"
+                          style={{ background: `url(${imageURL}/${id}/${thumbnail}) center center/cover`}}
+                        ></div>
+                        <div className="text">
+                          <div className="upper">{name}</div>
+                          <div className="lower">
+                            {tag.slice(0, 3).map((tagitem, index) => (
+                              <span key={index}>{index===0 ? "": "/"} {tagitem}  </span>
+                            ))}
+                          </div>
+                        </div>
+                        {url !== "" && 
+                        <button className="button noselect" onClick={()=> openModal({id, name, description, images, url, imageURL})}>
+                          Preview
+                        </button>
+                        }
+                      </div>
+                    </div>
+                  ))}
+                </div>
             </div>
-            <h5 className="text-center charcoal">soon</h5>
             <hr className="mt-4 mb-5" />
           </div>
         </div>
       </div>
+      <Modal ref={modalRef} content={modalContent} />
     </div>
   );
 }
