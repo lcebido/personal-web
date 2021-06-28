@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
-import { Youtube } from "react-bootstrap-icons";
 import "../sass/components/Blog.scss";
 import Modal from "./Modal";
 
