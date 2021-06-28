@@ -3,37 +3,37 @@
     "id": "1",
     "company": "Wide-Out Workforce Inc.",
     "year": {
-      "from": "1199667600",
-      "to": "1387501200"
+      "from": "2008-01-01T00:00:00+08:00",
+      "to": "2013-12-01T00:00:00+08:00"
     },
     "position": [
       {
         "id": "1",
         "title": "Rich Media Developer",
         "description": "Started my career as Rich Media developer where Macromedia flash is rocking the industry.",
-        "from": "1199667600",
-        "to": "1262566800"
+        "from": "2008-01-01T00:00:00+08:00",
+        "to": "2010-01-01T00:00:00+08:00"
       },
       {
         "id": "2",
         "title": "Senior Rich Media Developer",
         "description": "Promoted to Senior Rich Media developer, and got to train and guide new developers.",
-        "from": "1262566800",
-        "to": "1278291600"
+        "from": "2010-01-01T00:00:00+08:00",
+        "to": "2010-07-01T00:00:00+08:00"
       },
       {
         "id": "3",
         "title": "Rich Media Specialist",
         "description": "Rich Media Specialist, got my own team of developer to work with and manage our deliverables.",
-        "from": "1278291600",
-        "to": "1341795600"
+        "from": "2010-07-01T00:00:00+08:00",
+        "to": "2012-07-01T00:00:00+08:00"
       },
       {
         "id": "4",
         "title": "Rich Media Specialist II",
         "description": "Rich Media Specialist II, Communicate and negotiate with our offshore campaign manager for all incomming campaigns and work load.",
-        "from": "1341795600",
-        "to": "1387501200"
+        "from": "2012-07-01T00:00:00+08:00",
+        "to": "2013-12-01T00:00:00+08:00"
       }
     ],
     "location": "McKinley Hill, Taguig",
@@ -44,7 +44,7 @@
     "id": "2",
     "company": "GlobalNet Services Group Inc.",
     "year": {
-      "from": "1389574800",
+      "from": "2017-07-01T00:00:00+08:00",
       "to": ""
     },
     "position": [
@@ -52,15 +52,15 @@
         "id": "1",
         "title": "Flash Game Developer",
         "description": "Maintain and develop Flash base game, using Adobe Flash with actionscript 2 or 3. The games are used in our casino sportsbook site.",
-        "from": "1389574800",
-        "to": "1421024400"
+        "from": "2014-01-01T00:00:00+08:00",
+        "to": "2015-01-01T00:00:00+08:00"
       },
       {
         "id": "2",
         "title": "HTML5 Game Developer",
         "description": "Create and convert previous flash games to HTML5 games, using HTML5 Canvas to draw our game and PhaserJS as our main framework. We also used some libraries such as Three.js, CreateJS, EaselJs, TweenJs, SoundJs, PreloadJs.",
-        "from": "1421024400",
-        "to": "1499648400"
+        "from": "2015-01-01T00:00:00+08:00",
+        "to": "2017-07-01T00:00:00+08:00"
       },
       {
         "id": "3",
@@ -68,16 +68,22 @@
         "description": "Maintain and develop sportsbook website, Using PHP, JavaScript ES6, jquery, laravel for previous sites, VueJS , SASS / SCSS",
         "jobdescription":[
           {"id": "1",
-            "role": "Maintain and develop responsive sportsbook betting website, such as www.topbet.eu, www.mvpbte.com, www.oddsmaker.ag and same with our demo website www.digitalwin.com" 
+            "role": "Manage website project from initial design through completion, optimizing all cross-browser and multi-platform compatibility." 
           },
           {"id": "2",
-            "role": "Develop new betting application or feature with resuable codes and library, like NFL Survivor, NFL Draft, Squares using websocket" 
+            "role": "Collaborate with product team members to implement design, developments and distribution of task." 
           }, 
           {"id": "3",
-            "role": "Develop new betting application or feature with resuable codes and library, like NFL Survivor, NFL Draft, Squares using websocket" 
+            "role": "Develop new application and features, Building it with reusable code and libraries for future use." 
+          },
+          {"id": "4",
+            "role": "Standardizing all output with a new, responsive, from desktop to mobile browser." 
+          },
+          {"id": "5",
+            "role": "Testing it throughout all cross-flatforms, from Windows to Mac, Android to IOS on their most available browser." 
           }
         ],
-        "from": "1499648400",
+        "from": "2017-07-01T00:00:00+08:00",
         "to": ""
       }
     ],

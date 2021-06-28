@@ -40,20 +40,24 @@
                     padding: 0 10px;
                     font-weight: 600;
                     cursor: pointer;
-                
+                    transition: 200ms color ease-in-out;
                 }
-                .active{
+                .link:hover {
+                    color: #8aafdc;
+                }
+
+                .active {
                     color: #888;
                     cursor: default;
                     pointer-events: none;
                 }
-                .disabled{
+                .disabled {
                     color: #fff;
                     text-decoration: none;
                     padding: 0 10px;
                     font-weight: 600;
                     cursor: pointer;
-                    pointer-events:auto;
+                    pointer-events: auto;
                 }
             }
             .social {
@@ -63,6 +67,67 @@
                 align-items: center;
                 li {
                     padding: 0 8px;
+                }
+                .facebook {
+                    color: #fff;
+                    transition: 200ms color ease-in-out;
+                }
+                .facebook:hover {
+                    color: #1298f6;
+                }
+                .linkedIn {
+                    color: #fff;
+                    transition: 200ms color ease-in-out;
+                }
+                .linkedIn:hover {
+                    color: #0a66c2;
+                }
+            }
+            .menu {
+                cursor: pointer;
+            }
+
+            .dropdown {
+                position: absolute;
+                top: 59px;
+                transform: translateX(2%);
+                background-color: #111111ba;
+                border: 1px solid #5a5a5a;
+                border-radius: 4px;
+                overflow: hidden;
+                opacity: 0;
+                animation: 200ms ease-in-out 1 dropdown forwards;
+
+                .page {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    align-items: center;
+                    .link {
+                        padding: 16px 40px;
+                        width: -webkit-fill-available;
+                        text-align: center;
+                        transition: 200ms background ease-out, 200ms color ease-out;
+                    }
+                    .link.active {
+                        background: #ffffff0a;
+                    }
+                    .link.disabled {
+                        background: none;
+                    }
+                    .link:hover {
+                        background: #ffffff0a;
+                    }
+                }
+            }
+
+            @keyframes dropdown {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
                 }
             }
         }

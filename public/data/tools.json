@@ -1,7 +1,7 @@
 [
-  { "id": "1", "name": "NetBean", "level": "5" },
+  { "id": "1", "name": "NetBean", "level": "4" },
   { "id": "2", "name": "Visual Studio Code", "level": "4" },
-  { "id": "3", "name": "Chrome Developer", "level": "5" },
+  { "id": "3", "name": "Chrome Developer", "level": "4" },
   { "id": "4", "name": "XAMPP", "level": "3" },
   { "id": "5", "name": "PostMan", "level": "2" },
   { "id": "6", "name": "Mac", "level": "4" },
@@ -9,11 +9,11 @@
   { "id": "8", "name": "GitLab", "level": "3" },
   { "id": "9", "name": "Adobe Photoshop", "level": "4" },
   { "id": "10", "name": "Texture Packer", "level": "4" },
-  { "id": "11", "name": "DragonBones", "level": "4" },
-  { "id": "12", "name": "Adobe Flash", "level": "4" },
-  { "id": "13", "name": "SketchUp", "level": "4" },
+  { "id": "11", "name": "DragonBones", "level": "3" },
+  { "id": "12", "name": "Adobe Flash", "level": "5" },
+  { "id": "13", "name": "SketchUp", "level": "2" },
   { "id": "14", "name": "Google Docs", "level": "4" },
-  { "id": "15", "name": "Redmine", "level": "4" },
+  { "id": "15", "name": "Redmine", "level": "3" },
   { "id": "16", "name": "Davinci Resolve 16", "level": "4" },
   { "id": "17", "name": "FileZilla", "level": "2" }
 ]

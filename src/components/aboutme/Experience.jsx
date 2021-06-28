@@ -45,7 +45,7 @@ function Experience() {
           <h2 className="text-center p-3">Careers</h2>
           {[...career].reverse().map(({ id, company, year: { from, to }, position, location }) => (
               <div key={id} className="row mb-4">
-                <div className="col-lg-4">
+                <div className="col-lg-4 pb-4">
                   <h4>{company}</h4>
                   <div className="charcoal">
                     <GeoAltFill /> {location}
@@ -53,8 +53,8 @@ function Experience() {
                   <div className="charcoal">
                     <Calendar2RangeFill />
                     &nbsp;
-                    {moment({ from }).format("MMM YYYY")} -&nbsp;
-                    {moment({ to }).format("MMM YYYY")}
+                    {moment(from).format("MMMM YYYY")} -&nbsp;
+                    {to !== "" ? moment(to).format("MMMM YYYY") : "Present"}
                   </div>
                 </div>
                 <div className="col-lg-8">
@@ -62,8 +62,8 @@ function Experience() {
                       <div key={id} className="position-containter row mb-3">
                         <h5>{title}</h5>
                         <span className="date charcoal">
-                          {moment({ from }).format("MMM YYYY")} -&nbsp;
-                          {moment({ to }).format("MMM YYYY")}
+                          {moment(from).format("MMMM YYYY")} -&nbsp;
+                          {to !== "" ? moment(to).format("MMMM YYYY") : "Present"}
                         </span>
                         <div>{description}</div>
                       </div>
@@ -77,7 +77,7 @@ function Experience() {
           <h2 className="text-center p-3">Education</h2>
           {[...education].reverse().map( ({ id, school, year: { from, to }, level, location, degree}) => (
                 <div key={id} className="row mb-4">
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 pb-4">
                     <h4>{school}</h4>
                     <div className="charcoal">
                       <GeoAltFill /> {location}
@@ -85,17 +85,17 @@ function Experience() {
                     <div className="charcoal">
                       <Calendar2RangeFill />
                       &nbsp;
-                      {moment({ from }).format("MMM YYYY")} -&nbsp;
-                      {moment({ to }).format("MMM YYYY")}
+                      {moment(from).format("MMMM YYYY")} -&nbsp;
+                      {moment(to).format("MMMM YYYY")}
                     </div>
                   </div>
                   <div className="col-lg-8">
                     <h5>{school}</h5>
                     <div className="school">{degree}</div>
                     <span className="date charcoal">
-                    {level}
-                      {moment({ from }).format("MMM YYYY")} -&nbsp;
-                      {moment({ to }).format("MMM YYYY")}
+                    {level}&nbsp;
+                      {moment(from).format("MMMM YYYY")} -&nbsp;
+                      {moment(to).format("MMMM YYYY")}
                     </span>
                   </div>
                 </div>

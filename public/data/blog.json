@@ -5,16 +5,7 @@
     "tag": ["Davinci Resolve 16", "Photoshop"],
     "description": "Mobile Legend Top Global is a video creator facebook page, that shows mobile legend top playeys skills and gameplay highlights.",
     "url": "https://www.facebook.com/MobileLegendTopGlobalPlayer",
-    "thumbnail": "thumbnail-topbet.png",
-    "images": ["image-1.png","image-2.png","image-3.png","image-4.png","image-5.png"]
-  },
-  {
-    "id": "2",
-    "name": "Soon",
-    "tag": [],
-    "description": "",
-    "url": "",
-    "thumbnail": "thumbnail-mvpbet.png",
-    "images": []
+    "thumbnail": "mltopblobal.png",
+    "images": ["image-1.png","image-2.png","image-3.png","image-4.png"]
   }
 ]
