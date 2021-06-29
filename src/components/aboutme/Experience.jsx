@@ -47,8 +47,8 @@ function Experience() {
               <div key={id} className="row mb-4">
                 <div className="col-lg-4 pb-4">
                   <h4>{company}</h4>
-                  <div className="charcoal">
-                    <GeoAltFill /> {location}
+                  <div className="location">
+                     <GeoAltFill /> {location}
                   </div>
                   <div className="charcoal">
                     <Calendar2RangeFill />
@@ -79,7 +79,7 @@ function Experience() {
                 <div key={id} className="row mb-4">
                   <div className="col-lg-4 pb-4">
                     <h4>{school}</h4>
-                    <div className="charcoal">
+                    <div className="location">
                       <GeoAltFill /> {location}
                     </div>
                     <div className="charcoal">
