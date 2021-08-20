@@ -90,7 +90,7 @@ function Experience() {
                     </div>
                   </div>
                   <div className="col-lg-8">
-                    <h5>{school}</h5>
+                    <h5>{level}</h5>
                     <div className="school">{degree}</div>
                     <span className="date charcoal">
                     {level}&nbsp;
