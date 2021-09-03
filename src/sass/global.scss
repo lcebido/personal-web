@@ -79,9 +79,11 @@ h5 {
   margin-right: 0;
 }
 
-.font-pattaya {
-  font-family: "Pattaya", sans-serif;
-  font-size: calc(3rem + 3.3vw);
+.font-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(2rem + 3.3vw);
+  font-weight: 700;
+  letter-spacing: -0.3rem;
 }
 
 .inline-photo {

@@ -35,7 +35,7 @@ function Portfolio() {
       <div className="theme-dark pb-5">
         <div className="container inner-content">
           <div className="experience row pt-lg-4">
-            <h1 className="font-pattaya">portfolio.</h1>
+            <h1 className="font-header">portfolio.</h1>
             <h3 className="text-center charcoal px-5">
               “Practice patience to get the results but don't be much patient to
               take actions.”

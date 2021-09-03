@@ -68,7 +68,7 @@ function Skills() {
   return (
     <div className="container inner-content">
       <div className="skills row pt-lg-4">
-        <h1 className="font-pattaya">abilities.</h1>
+        <h1 className="font-header">abilities.</h1>
         <h3 className="text-center charcoal px-5">
         “It is not always possible to be the best, but it is always possible
           to improve your own performance.”

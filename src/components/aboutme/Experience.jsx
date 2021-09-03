@@ -35,7 +35,7 @@ function Experience() {
   return (
     <div className="container inner-content">
       <div className="experience row pt-lg-4">
-        <h1 className="font-pattaya">experience.</h1>
+        <h1 className="font-header">experience.</h1>
         <h3 className="text-center charcoal px-5">
         “It is only in adventure that some people succeed in knowing
           themselves - in finding themselves.”

@@ -7,7 +7,7 @@ import './sass/global.scss';
 
 WebFont.load({
   google: {
-    families: ['Roboto:100,200,300,400','Pattaya', 'Titillium Web:300,400,700', 'sans-serif']
+    families: ['Roboto:100,200,300,400','Pattaya', 'Montserrat:700,800,900', 'Titillium Web:300,400,700', 'sans-serif']
   }
 });
 
