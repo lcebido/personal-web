@@ -7,7 +7,7 @@ function PersonalProfile() {
     <div className="container inner-content">
       <div className="profile row my-lg-3">
         <div className="profile-container profile-inner col-lg-6">
-          <h1 className="font-pattaya">about.</h1>
+          <h1 className="font-header">about.</h1>
           <h2 className="charcoal mb-3">
             I'm a Software Engineer based in Rizal, Philippines.
           </h2>

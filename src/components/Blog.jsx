@@ -33,7 +33,7 @@ function BLog() {
       <div className="theme-light" style={{borderBottom: 0}}>
         <div className="container inner-content">
           <div className="experience row pt-lg-4">
-            <h1 className="font-pattaya mb-5">blog.</h1>
+            <h1 className="font-header mb-5">blog.</h1>
             <h3 className="text-center charcoal px-5">
               “Believe in yourself, and find ways to express yourself, and find
               the discipline to keep growing.”

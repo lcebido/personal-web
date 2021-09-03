@@ -10,7 +10,7 @@ function Contact() {
       <div className="theme-darker">
         <div className="container inner-content">
           <div className="experience row pt-lg-4">
-            <h1 className="font-pattaya">contact.</h1>
+            <h1 className="font-header">contact.</h1>
             <h3 className="text-center charcoal px-5">
               “Invisible threads are the strongest ties.”
               <br />- Friedrich Nietzsche
