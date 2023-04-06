@@ -5,7 +5,7 @@ import { Link45deg, XLg } from "react-bootstrap-icons";
 import "../sass/components/Modal.scss";
 
 const Modal = forwardRef(({ content }, ref) => {
-  const {id, name, images, description, url , imageURL} = content;
+  const { name, images, description, url } = content;
   const [display, setDisplay] = useState(false);
   useImperativeHandle(ref, () => {
     return {
@@ -43,7 +43,7 @@ const Modal = forwardRef(({ content }, ref) => {
           <button className="btn-back float-right" onClick={close}>
             <XLg size="18" color="#fff" />
           </button>
-          
+
           <Carousel
             swipeable={true}
             draggable={true}
@@ -63,8 +63,8 @@ const Modal = forwardRef(({ content }, ref) => {
             {images.map((image, index) => (
               <img
                 key={index}
-                src={`${imageURL}/${id}/${image}`}
-                alt={image}
+                src={`${image}`}
+                alt={`Image` + index}
               />
             ))}
           </Carousel>
@@ -75,15 +75,15 @@ const Modal = forwardRef(({ content }, ref) => {
               <div className="description charcoal">{description}</div>
             </div>
             {url !== '' &&
-            <div className="col-lg-3 d-flex align-items-center">
-              <a href={url} target="_blank" rel="noopener noreferrer">
-                <button className="btn-visitsite noselect" >
-                  <div className="icon"><Link45deg size="20" color="#fff" /></div>
-                  <div className="text">Visit</div>
-                </button>
-              </a>
-            </div>
-          }
+              <div className="col-lg-3 d-flex align-items-center">
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  <button className="btn-visitsite noselect" >
+                    <div className="icon"><Link45deg size="20" color="#fff" /></div>
+                    <div className="text">Visit</div>
+                  </button>
+                </a>
+              </div>
+            }
           </div>
         </div>
       </div>

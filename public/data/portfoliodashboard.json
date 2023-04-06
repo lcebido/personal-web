@@ -1,0 +1,42 @@
+{
+  "title": "Dashboard",
+  "list": [
+    {
+      "id": "1",
+      "name": "e-commerce app",
+      "tag": [
+        "ReactJs",
+        "NextJs",
+        "TypeScript",
+        "react-bootstrap"
+      ],
+      "description": "e-commerce apps provide a convenient and efficient way for consumers to shop online from anywhere at any time, and they have become increasingly popular in recent years due to the growth of mobile technology and the rise of online shopping.",
+      "url": "",
+      "thumbnail": "./images/portfolio/dashboard/1/thumbnail.png",
+      "images": [
+        "./images/portfolio/dashboard/1/image_1.png",
+        "./images/portfolio/dashboard/1/image_2.png",
+        "./images/portfolio/dashboard/1/image_3.png",
+        "./images/portfolio/dashboard/1/image_4.png"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Harvey Nichols",
+      "tag": [
+        "ReactJs",
+        "NextJs",
+        "TypeScript",
+        "react-bootstrap"
+      ],
+      "description": "An e-commerce app for Harvey Nichols is a mobile application that enables users to manage the product from end to end process from ordering to delivering the product to your doorstep.",
+      "url": "",
+      "thumbnail": "./images/portfolio/dashboard/2/thumbnail.png",
+      "images": [
+        "./images/portfolio/dashboard/2/image_1.png",
+        "./images/portfolio/dashboard/2/image_2.png",
+        "./images/portfolio/dashboard/2/image_3.png"
+      ]
+    }
+  ]
+}

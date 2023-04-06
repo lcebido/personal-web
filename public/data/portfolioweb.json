@@ -1,56 +1,136 @@
-[
-  {
-    "id": "1",
-    "name": "Topbet",
-    "tag": ["PHP", "VueJs", "JavaScript", "Jquery", "Bootstrap", "CSS: SASS/SCSS"],
-    "description": "Topbet.eu is a sportsbook real money online sports betting site, filled with bonuses and promotions to make your betting experience hassle free.",
-    "url": "https://topbet.eu/",
-    "thumbnail": "thumbnail-topbet.png",
-    "images": ["topbet-1.png","topbet-2.png","topbet-3.png","topbet-4.png","topbet-5.png"]
-  },
-  {
-    "id": "2",
-    "name": "Mvpbet",
-    "tag": ["PHP", "VueJs", "JavaScript", "Jquery", "Bootstrap", "CSS: SASS/SCSS"],
-    "description": "Mvpbet.com is the home of fast and hassle-free payouts and withdrawals.",
-    "url": "https://mvpbet.com/",
-    "thumbnail": "thumbnail-mvpbet.png",
-    "images": ["mvpbet-1.png","mvpbet-2.png","mvpbet-3.png","mvpbet-4.png","mvpbet-5.png"]
-  },
-  {
-    "id": "3",
-    "name": "OddsMaker",
-    "url": "https://Oddsmaker.ag/",
-    "tag": ["PHP", "VueJs", "JavaScript", "Jquery", "Bootstrap", "CSS: SASS/SCSS"],
-    "description": "OddsMaker.ag is one of the most reputable gaming sites online today. Offering from Sportsbook wagering, poker rooms, casino games, fantasy games, all to better accommodate you.",
-    "thumbnail": "thumbnail-oddsmaker.png",
-    "images": ["oddsmaker-1.png","oddsmaker-2.png","oddsmaker-3.png","oddsmaker-4.png","oddsmaker-5.png"]
-  },
-  {
-    "id": "4",
-    "name": "DigitalWin Showcase",
-    "tag": ["PHP", "VueJs", "JavaScript", "Jquery", "Bootstrap", "CSS: SASS/SCSS"],
-    "description": "This page is use for exhibits, to showcase what the company can offer for the potential clients.",
-    "url": "https://digitalwin.com/",
-    "thumbnail": "thumbnail-digitalwin.png",
-    "images": ["digitalwin-1.png","digitalwin-2.png","digitalwin-3.png","digitalwin-4.png","digitalwin-5.png"]
-  },
-  {
-    "id": "5",
-    "name": "DigitalWin Betting",
-    "tag": ["PHP", "VueJs", "JavaScript", "Jquery", "Bootstrap", "CSS: SASS/SCSS"],
-    "description": "A demo site for sportsbook betting.",
-    "url": "https://sportsdemo.digitalwin.com/",
-    "thumbnail": "thumbnail-digitalwindemo.png",
-    "images": ["digitalwinbetting-1.png","digitalwinbetting-2.png","digitalwinbetting-3.png","digitalwinbetting-4.png","digitalwinbetting-5.png"]
-  },
-  {
-    "id": "6",
-    "name": "BetGRW",
-    "tag": ["PHP", "VueJs", "JavaScript", "Jquery", "Bootstrap", "CSS: SASS/SCSS"],
-    "description": "BetGRW is ongoing / under construction sportsbook betting site.",
-    "url": "",
-    "thumbnail": "thumbnail-betgrw.png",
-    "images": ["betgrw-1.png","betgrw-2.png","betgrw-3.png","betgrw-4.png"]
-  }
-]
+{
+  "title": "Web Development",
+  "list": [
+    {
+      "id": "1",
+      "name": "Topbet",
+      "tag": [
+        "PHP",
+        "VueJs",
+        "JavaScript",
+        "Jquery",
+        "Bootstrap",
+        "CSS: SASS/SCSS"
+      ],
+      "description": "Topbet.eu is a sportsbook real money online sports betting site, filled with bonuses and promotions to make your betting experience hassle free.",
+      "url": "https://topbet.eu/",
+      "thumbnail": "./images/portfolio/webdev/1/thumbnail-topbet.png",
+      "images": [
+        "./images/portfolio/webdev/1/topbet-1.png",
+        "./images/portfolio/webdev/1/topbet-2.png",
+        "./images/portfolio/webdev/1/topbet-3.png",
+        "./images/portfolio/webdev/1/topbet-4.png",
+        "./images/portfolio/webdev/1/topbet-5.png"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mvpbet",
+      "tag": [
+        "PHP",
+        "VueJs",
+        "JavaScript",
+        "Jquery",
+        "Bootstrap",
+        "CSS: SASS/SCSS"
+      ],
+      "description": "Mvpbet.com is the home of fast and hassle-free payouts and withdrawals.",
+      "url": "https://mvpbet.com/",
+      "thumbnail": "./images/portfolio/webdev/2/thumbnail-mvpbet.png",
+      "images": [
+        "./images/portfolio/webdev/2/mvpbet-1.png",
+        "./images/portfolio/webdev/2/mvpbet-2.png",
+        "./images/portfolio/webdev/2/mvpbet-3.png",
+        "./images/portfolio/webdev/2/mvpbet-4.png",
+        "./images/portfolio/webdev/2/mvpbet-5.png"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "OddsMaker",
+      "url": "https://Oddsmaker.ag/",
+      "tag": [
+        "PHP",
+        "VueJs",
+        "JavaScript",
+        "Jquery",
+        "Bootstrap",
+        "CSS: SASS/SCSS"
+      ],
+      "description": "OddsMaker.ag is one of the most reputable gaming sites online today. Offering from Sportsbook wagering, poker rooms, casino games, fantasy games, all to better accommodate you.",
+      "thumbnail": "./images/portfolio/webdev/3/thumbnail-oddsmaker.png",
+      "images": [
+        "./images/portfolio/webdev/3/oddsmaker-1.png",
+        "./images/portfolio/webdev/3/oddsmaker-2.png",
+        "./images/portfolio/webdev/3/oddsmaker-3.png",
+        "./images/portfolio/webdev/3/oddsmaker-4.png",
+        "./images/portfolio/webdev/3/oddsmaker-5.png"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "DigitalWin Showcase",
+      "tag": [
+        "PHP",
+        "VueJs",
+        "JavaScript",
+        "Jquery",
+        "Bootstrap",
+        "CSS: SASS/SCSS"
+      ],
+      "description": "This page is use for exhibits, to showcase what the company can offer for the potential clients.",
+      "url": "https://digitalwin.com/",
+      "thumbnail": "./images/portfolio/webdev/4/thumbnail-digitalwin.png",
+      "images": [
+        "./images/portfolio/webdev/4/digitalwin-1.png",
+        "./images/portfolio/webdev/4/digitalwin-2.png",
+        "./images/portfolio/webdev/4/digitalwin-3.png",
+        "./images/portfolio/webdev/4/digitalwin-4.png",
+        "./images/portfolio/webdev/4/digitalwin-5.png"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "DigitalWin Betting",
+      "tag": [
+        "PHP",
+        "VueJs",
+        "JavaScript",
+        "Jquery",
+        "Bootstrap",
+        "CSS: SASS/SCSS"
+      ],
+      "description": "A demo site for sportsbook betting.",
+      "url": "https://sportsdemo.digitalwin.com/",
+      "thumbnail": "./images/portfolio/webdev/5/thumbnail-digitalwindemo.png",
+      "images": [
+        "./images/portfolio/webdev/5/digitalwinbetting-1.png",
+        "./images/portfolio/webdev/5/digitalwinbetting-2.png",
+        "./images/portfolio/webdev/5/digitalwinbetting-3.png",
+        "./images/portfolio/webdev/5/digitalwinbetting-4.png",
+        "./images/portfolio/webdev/5/digitalwinbetting-5.png"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "BetGRW",
+      "tag": [
+        "PHP",
+        "VueJs",
+        "JavaScript",
+        "Jquery",
+        "Bootstrap",
+        "CSS: SASS/SCSS"
+      ],
+      "description": "BetGRW is ongoing / under construction sportsbook betting site.",
+      "url": "",
+      "thumbnail": "./images/portfolio/webdev/6/thumbnail-betgrw.png",
+      "images": [
+        "./images/portfolio/webdev/6/betgrw-1.png",
+        "./images/portfolio/webdev/6/betgrw-2.png",
+        "./images/portfolio/webdev/6/betgrw-3.png",
+        "./images/portfolio/webdev/6/betgrw-4.png"
+      ]
+    }
+  ]
+}

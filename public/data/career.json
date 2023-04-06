@@ -39,13 +39,12 @@
     "location": "McKinley Hill, Taguig",
     "url": ""
   },
-
   {
     "id": "2",
     "company": "GlobalNet Services Group Inc.",
     "year": {
       "from": "2017-07-01T00:00:00+08:00",
-      "to": ""
+      "to": "2022-06-24T00:00:00+08:00"
     },
     "position": [
       {
@@ -66,28 +65,98 @@
         "id": "3",
         "title": "Web Developer",
         "description": "Maintain and develop sportsbook website, Using PHP, JavaScript ES6, jquery, laravel for previous sites, VueJS , SASS / SCSS",
-        "jobdescription":[
-          {"id": "1",
-            "role": "Manage website project from initial design through completion, optimizing all cross-browser and multi-platform compatibility." 
+        "jobdescription": [
+          {
+            "id": "1",
+            "role": "Manage website project from initial design through completion, optimizing all cross-browser and multi-platform compatibility."
           },
-          {"id": "2",
-            "role": "Collaborate with product team members to implement design, developments and distribution of task." 
-          }, 
-          {"id": "3",
-            "role": "Develop new application and features, Building it with reusable code and libraries for future use." 
+          {
+            "id": "2",
+            "role": "Collaborate with product team members to implement design, developments and distribution of task."
           },
-          {"id": "4",
-            "role": "Standardizing all output with a new, responsive, from desktop to mobile browser." 
+          {
+            "id": "3",
+            "role": "Develop new application and features, Building it with reusable code and libraries for future use."
           },
-          {"id": "5",
-            "role": "Testing it throughout all cross-flatforms, from Windows to Mac, Android to IOS on their most available browser." 
+          {
+            "id": "4",
+            "role": "Standardizing all output with a new, responsive, from desktop to mobile browser."
+          },
+          {
+            "id": "5",
+            "role": "Testing it throughout all cross-flatforms, from Windows to Mac, Android to IOS on their most available browser."
           }
         ],
         "from": "2017-07-01T00:00:00+08:00",
-        "to": ""
+        "to": "2022-06-24T00:00:00+08:00"
       }
     ],
     "location": "Accralaw Tower, Bonifacio Global City",
+    "url": ""
+  },
+  {
+    "id": "3",
+    "company": "Randem Group / KMC Solutions",
+    "year": {
+      "from": "2022-06-27T00:00:00+08:00",
+      "to": ""
+    },
+    "position": [
+      {
+        "id": "1",
+        "title": "Frontend Developer",
+        "description": "My primary responsibility is building robust and user-friendly ecommerce platforms using React.js and Next.js TypeScript. I work closely with a team of talented professionals, including Business Analysts, UI/UX Designers, and Backend Developers, to ensure that the platform meets the needs of our clients and their customers. In my role, I leverage my expertise in frontend development and knowledge of industry best practices to create visually appealing and intuitive user interfaces that enhance the online shopping experience. I also collaborate closely with our backend development team to ensure seamless integration and optimal performance of the ecommerce platform. Overall, my goal is to deliver cutting-edge ecommerce solutions that not only meet but exceed the expectations of our clients and their customers. ",
+        "jobdescription": [
+          {
+            "id": "1",
+            "role": "Works with team leaders and project managers to get the sprint and project requirements."
+          },
+          {
+            "id": "2",
+            "role": "Works with an e­commerce platform."
+          },
+          {
+            "id": "3",
+            "role": "Expected to coordinate and work with backend developers when needed."
+          },
+          {
+            "id": "4",
+            "role": "Estimates and involved in planning of tasks and sprints."
+          },
+          {
+            "id": "5",
+            "role": "Work in collaboration withDesigners to turn their vision into functional HTML templates."
+          },
+          {
+            "id": "6",
+            "role": "Help manage project timelines through the design, development and QA processes."
+          },
+          {
+            "id": "7",
+            "role": "Familiarize and study BigCommerce platform and Modify e­commerce theme base on design."
+          },
+          {
+            "id": "8",
+            "role": "Add custom functionalities base on project requirements and ensuring web design is optimized for smartphones."
+          },
+          {
+            "id": "9",
+            "role": "Build responsive sites for mobile and desktop web experiences."
+          },
+          {
+            "id": "10",
+            "role": "Building reusable code for future use and optimizing web pages for maximum speed and scalability."
+          },
+          {
+            "id": "11",
+            "role": " Documenting projects that you’ve done before."
+          }
+        ],
+        "from": "2022-06-27T00:00:00+08:00",
+        "to": ""
+      }
+    ],
+    "location": "Robinsons Zeta Tower C5 Road Quezon City",
     "url": ""
   }
 ]
