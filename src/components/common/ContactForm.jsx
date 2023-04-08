@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Recaptcha from 'react-google-invisible-recaptcha'
-import { Form, Row, Col, Button } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
 import '../../sass/components/ContactForm.scss'
 
 function ContactForm() {

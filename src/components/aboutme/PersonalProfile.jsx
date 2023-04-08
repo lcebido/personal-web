@@ -1,6 +1,5 @@
 import React from "react";
 import SlideBar from "./SlideBar"
-import { Download } from "react-bootstrap-icons";
 
 function PersonalProfile() {
   return (
