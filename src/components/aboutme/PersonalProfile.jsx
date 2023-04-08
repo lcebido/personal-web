@@ -16,11 +16,6 @@ function PersonalProfile() {
             readable. I might look intimidating, but I'm more approachable than
             you think.
           </p>
-          <div className="button-container">
-            <button>
-            <a href="/pdf/Louie_Cebido-CV.pdf" target="_blank" rel="noopener noreferrer"><Download />&nbsp;&nbsp; .pdf version</a>
-            </button>
-          </div>
         </div>
         <div className="image-container profile-inner text-center col-lg-6 mb-sm-5">
           <img
@@ -30,8 +25,8 @@ function PersonalProfile() {
           />
         </div>
       </div>
-        <SlideBar />
-        <div className='clearfix my-4'></div>
+      <SlideBar />
+      <div className='clearfix my-4'></div>
     </div>
   );
 }

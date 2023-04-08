@@ -1,0 +1,37 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        background: #3e6ca2;
+        margin: 10px;
+        padding: 6px 20px;
+        border: 1px solid #fff;
+        color: #fff;
+        box-shadow: inset 0px 0px 0px 0px #fff;
+        transition: 400ms box-shadow cubic-bezier(0.31, 0.95, 0.57, 1), 400ms color cubic-bezier(0.31, 0.95, 0.57, 1);
+        width: 200px;
+    }
+    button:hover {
+        box-shadow: inset 200px 0px 0px 0px #fff;
+        color: #3e6ca2;
+        a {
+            text-decoration: none;
+            color: #3e6ca2;
+        }
+    }
+}
+
+.text-thankyou {
+    color: #6fa2dd;
+    font-size: 24px;
+}
+
+.text-another-message {
+    font-size: 16px;
+    cursor: pointer;
+    color: #bdbdbd;
+    &:hover {
+        color: #98c5f8;
+    }
+}

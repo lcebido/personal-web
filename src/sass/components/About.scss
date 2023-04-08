@@ -8,27 +8,24 @@
             flex-direction: column;
             justify-content: center;
 
-            .button-container{
+            .button-container {
                 display: flex;
                 justify-content: center;
                 align-content: center;
-                button{
+                button {
                     background: none;
                     margin: 10px;
                     padding: 6px 20px;
                     border: 3px solid #3e6ca2;
                     box-shadow: inset 0px 0px 0px 0px #3e6ca2;
-                    transition: 400ms box-shadow cubic-bezier(0.31, 0.95, 0.57, 1), 400ms color cubic-bezier(0.31, 0.95, 0.57, 1);
-                    a{
-                        text-decoration: none;
-                        color: #111;
-                        transition: 400ms color cubic-bezier(0.31, 0.95, 0.57, 1);
-                    }
+                    transition: 400ms box-shadow cubic-bezier(0.31, 0.95, 0.57, 1),
+                        400ms color cubic-bezier(0.31, 0.95, 0.57, 1);
+                    color: #3e6ca2;
                 }
                 button:hover {
                     box-shadow: inset 200px 0px 0px 0px #3e6ca2;
                     color: #fff;
-                    a{
+                    a {
                         text-decoration: none;
                         color: #fff;
                     }
@@ -79,7 +76,7 @@
     .experience {
         .carrer,
         .education {
-            .location{
+            .location {
                 color: #3e6ca2;
             }
 
