@@ -9,7 +9,7 @@ function ContactForm() {
   const recaptchaRef = useRef();
   const [error, setError] = useState()
   const [isSubmitting, setSubmitting] = useState(false)
-  const [toggleForm, setToggleForm] = useState(true)
+  const [toggleForm, setToggleForm] = useState(false)
 
 
   const onSubmit = (e) => {
